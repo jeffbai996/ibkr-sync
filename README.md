@@ -1,5 +1,8 @@
 # ibkr-sync
 
+> **DEPRECATED — superseded by [ibkr-terminal](https://github.com/jeffbai996/ibkr-terminal).**
+> This repository is archived and no longer maintained. Use ibkr-terminal for all portfolio/IBKR integration. The code below is preserved for historical reference only.
+
 Pulls portfolio state from IBKR TWS/Gateway and writes `~/.claude/portfolio_state.json` so Claude Code sessions have live position data. Optionally fires webhook alerts when leverage, cushion, or daily P&L breach thresholds.
 
 ## Setup
